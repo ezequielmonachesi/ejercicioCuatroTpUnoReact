@@ -1,0 +1,15 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    140deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 79, 74, 1) 35%,
+    rgba(2, 0, 36, 1) 93%
+  );
+}
+.main {
+  flex-grow: 1;
+}
