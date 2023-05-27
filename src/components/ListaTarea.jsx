@@ -2,10 +2,11 @@ import { ListGroup } from "react-bootstrap";
 import ItemTarea from "./ItemTarea";
 
 
-const ListaTarea = () => {
+const ListaTarea = ({valor}) => {
+  const valor = valor;
   return (
     <ListGroup>
-        <ItemTarea></ItemTarea>
+        <ItemTarea valor = {valor}></ItemTarea>
     </ListGroup>
   );
 };
