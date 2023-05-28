@@ -3,10 +3,11 @@ import ItemTarea from "./ItemTarea";
 
 
 const ListaTarea = ({valor}) => {
-  console.log(valor)
   return (
     <ListGroup>
-        <ItemTarea array = {valor}></ItemTarea>
+      {valor.map(e=>{
+        return <ItemTarea item = {e}></ItemTarea>
+      })}
     </ListGroup>
   );
 };
